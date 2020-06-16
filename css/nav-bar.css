@@ -2,6 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+	font-family: 'FuturaNewMedium';
+	src: url("../font/FuturaNewMedium.otf");
+	font-style: normal;
+	font-weight: 100;
+}
+
 *{
 	margin:0;
 	padding: 0;
@@ -79,7 +86,7 @@ div.nav-items ul{
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
-	font-family: "Futura-Normal", sans-serif;
+	font-family: FuturaNewMedium;
 	font-weight: lighter;
 	font-size : 20px;
 	padding :20px;
